@@ -1,20 +1,116 @@
 
 
+.background-body {
+    background-color: #202020;}
+/*styling for the social media icons and nav bar colors */
+
+.green {
+    color: #008037;
+}
+
+.yellow {
+    color: #e4b81c;
+}
+
+.red {
+    color: #d9372f;
+}
+
+.blue {
+    color: #2255fc;
+}
+
+
+/* Page styling */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
 
 
 
+/* logo & nav styling */
 
-
-
-/* footer styling */
-.footer {
-    background-color: #202020;
+#header-container {
+    background-color:#202020;
+    height: 25%;
     width: 100%;
-    height: 10%;
+    text-align: center;
+    margin: 10px; 
+    padding: 10px;
+    
+}
+
+
+#logo img {
+    height: 150px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+nav li {
+    font-size: 100%;
+    display: inline;
+    padding: 20px;
+    background-color:#202020;
+    width: 100%;
+    text-decoration: none;
+    
+
+}
+
+nav li::selection {
     color: white;
 }
 
-.footer > span {
-    display: inline-block;
+
+
+nav ul li a {
+    width: 20%;
+}
+
+
+#active-home {
+        color: #202020;
+        background-color: ivory;
+}
+
+
+/* footer styling */
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 120%;
+    position: absolute;
+    bottom: 0;
+    background-color:#202020;
+}
+
+.footer-block {
     width: 33%;
+    padding: 3rem;
+    
+}
+
+.footer-block a {
+    padding: 0.2rem;
+}
+
+.footer-block-two {
+    width: 33%;
+    padding: 3rem;
+    
+}
+
+.footer-block-two a {
+    padding: 0.2rem;
 }
