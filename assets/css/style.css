@@ -20,6 +20,14 @@
     color: #2255fc;
 }
 
+.black {
+    color: #202020;
+}
+
+.white {
+    color: cornsilk;
+}
+
 
 
 
@@ -88,14 +96,26 @@ nav ul li a {
         background-color: ivory;
 }
 
-.active-wildlife {
+#active-geography {
+    color: #202020;
+    background-color: #008037;
+}
+
+#active-wildlife {
     color: #202020;
     background-color: #e4b81c;
 }
 
-.active-culture {
+#active-culture {
     color: #202020;
     background-color: #d9372f;
+    
+    
+}
+
+#active-history {
+    color: #202020;
+    background-color: #2255fc;
     
     
 }
