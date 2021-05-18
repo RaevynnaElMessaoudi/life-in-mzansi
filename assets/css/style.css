@@ -25,7 +25,7 @@
 }
 
 .white {
-    color: cornsilk;
+    color: #fff8dc;
 }
 
 
@@ -60,6 +60,7 @@
     width: 250px;
     padding: 5px;
     margin-left: 1%; 
+    margin-bottom: 2%;
 }
 
 
@@ -79,7 +80,7 @@ nav li {
 }
 
 nav li::selection {
-    color: white;
+    color: #fff8dc;
 }
 
 
@@ -131,15 +132,15 @@ footer {
     position: relative;
 }
 .footer {
-    width: 100vw;
+    width: 98vw;
     height: 15vh;
     display: flex;
     color: cornsilk;
-    margin-left: -2.5%;
     
+    margin-top: 2%;
     font-size: 120%;
     position: sticky;
-    bottom: 2%;
+    
     
     background-color: #202020;
 }
@@ -147,13 +148,13 @@ footer {
 .footer-block-one {
     width: 38%;
     padding-top: 4%;
+    margin-left: -3.5%;
     
     
     
 }
 
 .footer-block-one a {
-    padding: 0.2rem;
     text-align: center;
 }
 
@@ -162,6 +163,7 @@ footer {
 .footer-block-two {
     width: 33%;
     padding-top: 4%;
+    margin-left: -8.5%;
     
     
     
@@ -176,6 +178,7 @@ footer {
 .footer-block-three {
     width: 20%;
     padding-top: 4%;
+    margin-left: -5.5%;
     
     
     
@@ -187,7 +190,7 @@ footer {
 }
 
 footer a:visited {
-    color: cornsilk;
+    color: #fff8dc;
 }
 
 * {box-sizing:border-box}
@@ -196,11 +199,65 @@ footer a:visited {
 
 /* Hero Image Styling */
 #hero-image {
-    width: 100vw;
+    width: 98vw;
 }
 
 #hero-image-container {
-    margin: 2% 0 8% 0;
+    margin: 2% 0 2% 0;
 }
 
+/* Introduction Styling */
+
+#intro {
+    background-color: #fff8dc;
+    width: 50vw;
+    padding: 1% 0.25% 1% 0.25%;
+}
+
+#intro p {
+    padding: 0.25% 0 0.75% 0;
+}
+#intro p,h1 {
+    color: #202020;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+#intro h1 {
+    padding: 0.5% 0 0.25% 0;
+    border: none;
+}
+
+/* Geography Page Styling */
+
+
+#geography-container-one div {
+    display: inline-block;
+}
+#geography-heading {
+    color: #008037;
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+
+#geography-content-one-container {
+    display: inline-block;
+}
+#geography-paragraph-one {
+    background-color: #202020;
+    width: 35%;
+    height: 450px;
+    margin: 0 0 5% 10%;
+    padding: 1% 1% 1% 1%;
+    border: #008037 double 10px;
+    color: #fff8dc;
+    float: left;
+}
+
+#geography-paragraph-one h2 {
+    font-size: 200%;
+    padding-bottom: 3%;
+}
 
