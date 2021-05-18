@@ -283,6 +283,8 @@ footer a:visited {
     margin-top: 3%;
 }
 
+
+
 #geography-container-two {
     display: inline-block;
 }
@@ -311,7 +313,7 @@ footer a:visited {
     width: 400px;
     height: 400px;
     display: inline-block;
-    margin: 0% 2% 5% 0;
+    margin: 3% 2% 3% 0;
     
 }
 
@@ -435,4 +437,33 @@ width: 70%;
         font-size: 250%;
 }
 
+.sa-capitals {
+    
+    width: 250px;
+    height: 250px;
+    
+
 }
+.sa-capitals > p {
+    font-size: 95%;
+    width: 70%;
+    color: #fff8dc;
+    background-color: #202020;
+    
+    margin-top: 2px;
+    
+}
+
+#geography-paragraph-one {
+    background-color: #202020;
+    width: 60vw;
+    float: none;
+    margin: 0;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    color: #fff8dc;
+    font-size: 60%
+}
+
+}
+
