@@ -503,11 +503,113 @@ width: 70%;
     font-size: 95%;
     
 }
+
+#wildlife-paragraph-two h2 {
+    margin-bottom: 2%;
+    color: #e4b81c;
+    font-size: 250%;
+    
+}
+
+#wildlife-paragraph-two h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #e4b81c;
+    font-size: 120%;
+}
+
+.national-animal {
+    border: #e4b81c solid 5px;
+    color: #fff8dc;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 3% 2% 3% 0;
+}
+
+.national-animal > p {
+    background-color: #202020;
+}
+
+#galjoen {
+    background-image: url(../images/galjoen.jpg);
+    background-size: cover;
+}
+
+#blue-crane {
+    background-image: url(../images/blue-crane.png);
+    background-size: cover;
+}
+
+#springbok {
+    background-image: url(../images/springbok2.jpg);
+    background-size: cover;
+}
+
+#wildlife-container-two {
+    border-bottom: 1px solid #fff8dc;
+    width: 70%;
+}
+
+#wildlife-paragraph-three {
+    background-color: #202020;
+    width: 70%;
+    padding: 1% 1% 1% 1%;
+    color: #fff8dc;
+    font-size: 95%;
+    
+}
+
+#wildlife-paragraph-three h2 {
+    margin-bottom: 2%;
+    color: #e4b81c;
+    font-size: 250%;
 }
 
 
+.honourable-mentions {
+    border: #e4b81c solid 5px;
+    color: #fff8dc;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin: 3% 2% 3% 0;
+    font-size: 120%;
+}
 
+.honourable-mentions > p {
+    background-color: #202020;
+}
 
+#giraffe {
+    background-image: url(../images/giraffe.jpg);
+    background-size: cover;
+}
+
+#black-mamba {
+    background-image: url(../images/black-mamba.jpg);
+    background-size: cover;
+}
+
+#zebra {
+    background-image: url(../images/zebra.jpg);
+    background-size: cover;
+}
+
+#hyena {
+    background-image: url(../images/hyena.jpg);
+    background-size: cover;
+}
+
+#hippo {
+    background-image: url(../images/hippo.jpg);
+    background-size: cover;
+}
+
+#cheetah {
+    background-image: url(../images/cheetah.jpg);
+    background-size: cover;
+}
 
 
 
@@ -647,3 +749,4 @@ width: 70%;
 
 }
 
+  
