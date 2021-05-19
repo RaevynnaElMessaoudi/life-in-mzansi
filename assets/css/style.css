@@ -272,6 +272,12 @@ footer a:visited {
     
 }
 
+#sa-map {
+    width: 640px;
+    height: 350px; 
+    border:#008037 solid 5px; margin-top: 10%;
+}
+
 #geography-paragraph-one h2 {
     font-size: 200%;
     padding-bottom: 3%;
@@ -294,7 +300,7 @@ footer a:visited {
     width: 70%;
     height: 200px;
     padding: 1% 1% 1% 1%;
-    margin-top: 4%;
+    margin-top: 6%;
     color: #fff8dc;
     font-size: 95%;
     border-top: solid 1px #fff8dc;
@@ -413,6 +419,123 @@ width: 70%;
 }
 
 
+/* Widlife Page Styling */
+
+
+
+
+#wildlife-heading {
+    color: #e4b81c;
+    font-size: 400%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    margin-top: 2.5%;
+    font-size: 72px;
+ 
+  
+    
+}
+
+#wildlife-content-one-container {
+    display: inline-block;
+}
+#wildlife-paragraph-one {
+    background-color: #202020;
+    width: 70%;
+    padding: 1% 1% 1% 1%;
+    color: #fff8dc;
+    font-size: 95%;
+    
+}
+
+#wildlife-paragraph-one h2 {
+    color: #e4b81c;
+    font-size: 250%;
+    margin-bottom: 3%;
+    
+    
+}
+
+.big-five {
+    border: #e4b81c solid 5px;
+    color: #fff8dc;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 3% 2% 3% 0;
+}
+
+.big-five > p {
+    background-color: #202020;
+}
+
+#lion {
+    background-image: url(../images/lion.jpg);
+    background-size: cover;
+}
+
+#leopard {
+    background-image: url(../images/leopard.jpg);
+    background-size: cover;
+}
+
+#rhino {
+    background-image: url(../images/rhino.jpg);
+    background-size: cover;
+}
+
+#elephant {
+    background-image: url(../images/elephant2.jpg);
+    background-size: cover;
+}
+
+#buffalo {
+    background-image: url(../images/water-buffalo.jpg);
+    background-size: cover;
+}
+
+
+#wildlife-paragraph-two {
+    background-color: #202020;
+    width: 70%;
+    padding: 1% 1% 1% 1%;
+    color: #fff8dc;
+    font-size: 95%;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     nav li{
         display: block;
@@ -420,11 +543,11 @@ width: 70%;
 
     footer {
        
-        font-size: 80%;}
+        font-size: 60%;}
 
     #hero-image {width: 70vw;}
 
-#logo img {
+    #logo img {
     height: 150px;
     width: 250px;
     padding: 5px;
@@ -432,9 +555,49 @@ width: 70%;
     margin-bottom: 2%;
     }
 
+    .footer-block-one {
+        width: 30%;
+        padding-top: 4%;
+        margin-left: 1.5%;
+        border: 1px solid #fff;
+        height: 60%; 
+    }
+
+    .footer-block-two {
+        border: 1px solid #fff8dc;
+        height: 60%;  
+        margin-left: -5.5%;
+        
+    }
+
+    .footer-block-three {
+        border: 1px solid #fff8dc;
+        height: 60%; 
+
+    }
+
+    .footer {
+        margin-left: 3.5%;
+    }
+
+
+
     #geography-heading {
         
         font-size: 250%;
+}
+
+#sa-map {
+    width: 200px;
+    height: 200px; 
+    border:#008037 solid 5px; 
+    margin-top: 3%;
+}
+
+#sa-location {
+    font-size: 70%;
+    margin-bottom: 5%;
+    height: auto;
 }
 
 .sa-capitals {
@@ -462,8 +625,25 @@ width: 70%;
     padding: 1% 1% 1% 1%;
     text-align: center;
     color: #fff8dc;
-    font-size: 60%
+    font-size: 70%;
+    height: auto;
+    margin-bottom: 2%;
 }
+
+#geography-container-three h2 {
+    display: block;
+}
+
+#geography-container-three h2 {
+    margin-top: 8%;
+    font-size: 110%;
+}
+
+#geography-container-three p {
+    margin-bottom: 5%;
+}
+
+
 
 }
 
