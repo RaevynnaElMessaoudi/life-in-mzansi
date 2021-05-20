@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 
 .background-body {
     background-color: #202020;}
@@ -256,18 +256,12 @@ footer a:visited {
     
 }
 
-#geography-content-one-container {
-    display: inline-block;
-}
+
 #geography-paragraph-one {
     background-color: #202020;
-    width: 35%;
-    height: 450px;
-    margin: 0 0% 5% 7%;
+    width: 80vw;
     padding: 1% 1% 1% 1%;
-    
     color: #fff8dc;
-    float: left;
     font-size: 95%;
     
 }
@@ -281,6 +275,7 @@ footer a:visited {
 #geography-paragraph-one h2 {
     font-size: 200%;
     padding-bottom: 3%;
+    color: #008037;
 }
 
 #mandela-quote {
@@ -438,6 +433,7 @@ width: 70%;
 
 #wildlife-content-one-container {
     display: inline-block;
+    
 }
 #wildlife-paragraph-one {
     background-color: #202020;
@@ -611,10 +607,59 @@ width: 70%;
     background-size: cover;
 }
 
+/* Culture Styling */
 
+#culture-container-one h1 {
+    color: #d9372f;
+    font-size: 400%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    margin-top: 2.5%;
+    font-size: 72px;
+}
 
+#culture-container-one h2 {
+    color: #d9372f;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
 
+#culture-one-one img {
+    width: 80vw;
+    border: #d9372f 5px solid;
+}
 
+#culture-one-two p {
+    background-color: #202020;
+    width: 80vw;
+    color: #fff8dc;
+    font-size: 95%;
+    margin-bottom: 3%;
+}
+
+#culture-container-two  h2 {
+    color: #d9372f;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
+
+#culture-container-two  p {
+    background-color: #202020;
+    width: 80vw;
+    color: #fff8dc;
+    font-size: 95%;
+    
+}
+
+#culture-container-two iframe {
+    margin-top: 2%;
+    
+    
+}
 
 
 
@@ -719,18 +764,7 @@ width: 70%;
     
 }
 
-#geography-paragraph-one {
-    background-color: #202020;
-    width: 60vw;
-    float: none;
-    margin: 0;
-    padding: 1% 1% 1% 1%;
-    text-align: center;
-    color: #fff8dc;
-    font-size: 70%;
-    height: auto;
-    margin-bottom: 2%;
-}
+
 
 #geography-container-three h2 {
     display: block;
