@@ -657,11 +657,106 @@ width: 70%;
 
 #culture-container-two iframe {
     margin-top: 2%;
+    max-width: 80vw;
     
     
 }
 
+#culture-container-three  h2 {
+    color: #d9372f;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
 
+#culture-container-three  p {
+    background-color: #202020;
+    width: 80vw;
+    color: #fff8dc;
+    font-size: 95%;
+    
+}
+
+#culture-container-three  img {
+    margin-top: 2%;
+    max-width: 80vw;
+    
+}
+
+#culture-container-four  h2 {
+    color: #d9372f;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
+
+#culture-container-four {
+    background-color: #202020;
+    color: #fff8dc;
+    font-size: 150%;
+    
+}
+
+#food-paragraph {
+    width: 80vw;
+}
+
+#food-pictures > p {
+    font-size: 150%;
+}
+
+#culture-food-paragraph {
+    width: 80vw;
+}
+
+
+.sa-food {
+    border: #d9372f solid 5px;
+    color: #fff8dc;
+    width: 25vw;
+    height: 25vw;
+    display: inline-block;
+    margin: 3% 2% 3% 0;
+}
+
+.sa-food > p {
+    background-color: #202020;
+    
+    
+}
+
+#biltong {
+    background-image: url(../images/biltong2.jpg);
+    background-size: cover;
+}
+
+
+#milktart {
+    background-image: url(../images/milk-tart.jpg);
+    background-size: cover;
+}
+
+#koeksisters {
+    background-image: url(../images/koeksisters.jpg);
+    background-size: cover;
+}
+
+#malva-pudding {
+    background-image: url(../images/malva-pudding.jpg);
+    background-size: cover;
+}
+
+#shisha-nyama {
+    background-image: url(../images/braai.jpg);
+    background-size: cover;
+}
+
+#bunny-chow {
+    background-image: url(../images/bunny-chow.png);
+    background-size: cover;
+}
 
 
 
@@ -707,19 +802,22 @@ width: 70%;
         padding-top: 4%;
         margin-left: 1.5%;
         border: 1px solid #fff;
-        height: 60%; 
+        height: 30%; 
     }
 
     .footer-block-two {
         border: 1px solid #fff8dc;
-        height: 60%;  
+        height: 30%;  
         margin-left: -5.5%;
+        border: 1px solid #fff8dc;
+        
+        
         
     }
 
     .footer-block-three {
         border: 1px solid #fff8dc;
-        height: 60%; 
+        height: 30%; 
 
     }
 
@@ -779,7 +877,16 @@ width: 70%;
     margin-bottom: 5%;
 }
 
+.sa-food {
+    
+    width: 80vw;
+    height: 40vh;
+    
+}
 
+#food-pictures > p {
+    font-size: 150%;
+}
 
 }
 
