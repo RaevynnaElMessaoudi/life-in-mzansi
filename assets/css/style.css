@@ -38,7 +38,7 @@
     padding: 0;
     border: none;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -780,14 +780,118 @@ width: 70%;
 }
 
 
+/* History page styling */
+
+.timeline {
+    border: #2255fc solid 5px;
+    color: #fff8dc;
+    width: 13.3vw;
+    height: 13.3vw;
+    display: inline-block;
+    margin: 3% 2% 3% 0;
+}
+
+.timeline > p {
+    background-color: #202020;
+    
+    
+}
+
+#pre-colonisation {
+    background-image: url(../images/pre-colonisation.jpg);
+    background-size: cover;
+}
+
+
+#dutch {
+    background-image: url(../images/dutch-colonisation.jpg);
+    background-size: cover;
+}
+
+#british {
+    background-image: url(../images/british-colonisation.JPG);
+    background-size: cover;
+}
+
+#union {
+    background-image: url(../images/union-of-sa.jpg);
+    background-size: cover;
+}
+
+#apartheid {
+    background-image: url(../images/apartheid.jpg);
+    background-size: cover;
+}
+
+#democratic-sa {
+    background-image: url(../images/democratic-sa.png);
+    background-size: cover;
+}
+
+#history-container-one h1 {
+    color: #2255fc;
+    font-size: 400%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    margin-top: 2.5%;
+    font-size: 72px;
+}
+
+#history-container-one h3 {
+    color: #fff8dc;
+    font-size: 100%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
+
+#history-container-one h2 {
+    color: #2255fc;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
+
+#history-container-one  p {
+    background-color: #202020;
+    color: #fff8dc;
+    font-size: 95%;
+    margin-bottom: 2%;
+    
+}
 
 
 
+.history-containers h2 {
+    color: #2255fc;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    
+}
 
 
 
+.history-containers  p {
+    background-color: #202020;
+    color: #fff8dc;
+    width: 80vw;
+    font-size: 95%;
+    margin-bottom: 2%;
+    
+}
 
+.jump-button h3{
+    color:#fff8dc;
+    border: #2255fc;
+    border-radius: #2255fc;
+    text-decoration: none;
+}
 
+.jump-button h3 a:link {
+    text-decoration: none;
+}
 
 
 
