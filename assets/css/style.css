@@ -69,13 +69,14 @@
 
 
 nav li {
-    font-size: 150%;
+    font-size: 180%;
     display: inline;
     padding: 10px;
-
     background-color:#202020;
     width: 100%;
     text-decoration: none;
+    border: 1.5px solid #fff8dc;
+    border-radius: 25px;
     
     
     
@@ -141,19 +142,16 @@ footer {
     height: 15vh;
     display: flex;
     color: cornsilk;
-    
     margin-top: 2%;
-    font-size: 100%;
+    font-size: 180%;
     position: sticky;
-    
-    
     background-color: #202020;
 }
 
 .footer-block-one {
-    width: 38%;
+    width: 34%;
     padding-top: 4%;
-    margin-left: -3.5%;
+    margin-left: 1.5%;
     
     
     
@@ -161,6 +159,16 @@ footer {
 
 .footer-block-one a {
     text-align: center;
+}
+
+.footer-block-one a:link {
+    color: #fff8dc;
+   
+}
+
+.footer-block-one a:visited {
+    color: #fff8dc;
+   
 }
 
 
@@ -183,7 +191,7 @@ footer {
 .footer-block-three {
     width: 20%;
     padding-top: 4%;
-    margin-left: -5.5%;
+    margin-left: -8.5%;
     
     
     
@@ -193,9 +201,14 @@ footer {
     padding: 0.2rem;
     text-align: center;
 }
-
-footer a:visited {
+.footer-block-three a:link {
     color: #fff8dc;
+   
+}
+
+.footer-block-three a:visited {
+    color: #fff8dc;
+   
 }
 
 * {box-sizing:border-box}
@@ -205,6 +218,8 @@ footer a:visited {
 /* Hero Image Styling */
 #hero-image {
     width: 98vw;
+    border: rgba(255, 248, 220, 0) solid 1px;
+    border-radius: 25px;
 }
 
 #hero-image-container {
@@ -217,6 +232,8 @@ footer a:visited {
     background-color: #fff8dc;
     width: 50vw;
     padding: 1% 0.25% 1% 0.25%;
+    border: #fff8dc solid 1px;
+    border-radius: 25px;
 }
 
 #intro p {
@@ -269,7 +286,7 @@ footer a:visited {
 #sa-map {
     width: 640px;
     height: 350px; 
-    border:#008037 solid 5px; margin-top: 10%;
+    border:#008037 solid 5px; margin-top: 5%;
 }
 
 #geography-paragraph-one h2 {
@@ -304,15 +321,15 @@ footer a:visited {
     
 }
 
-#sa-capitals-container {
-    margin: 2.5% 0 0 2%;
-    display: inline-block;
+#capital-container {
+    width: 80vw;
 }
+
 .sa-capitals {
     border: #008037 solid 5px;
     color: #fff8dc;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: inline-block;
     margin: 3% 2% 3% 0;
     
@@ -353,11 +370,15 @@ font-size: 95%;
 width: 70%;
 }
 
+#province-container {
+    width: 80vw;
+}
+
 .sa-provinces {
     border: #008037 solid 5px;
     color: #fff8dc;
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     display: inline-block;
     margin: 3% 2% 3% 0;
 }
@@ -781,13 +802,22 @@ width: 70%;
 @media only screen and (max-width: 600px) {
     nav li{
         display: block;
+        width: 50vw;
       }
 
-    footer {
-       
-        font-size: 60%;}
+    .footer {
+        height: 10vh;
+        }
 
-    #hero-image {width: 70vw;}
+    #hero-image {visibility: collapse;}
+    
+    #hero-image-container {height: 60vh;
+        width: 100vw;
+        background-image: url(../images/hero-small-p1.png);
+        border: #fff8dc00 solid 1px;
+    border-radius: 25px;
+        
+    }
 
     #logo img {
     height: 150px;
@@ -797,27 +827,32 @@ width: 70%;
     margin-bottom: 2%;
     }
 
+    #intro {
+        width: 80vw;
+        border: #fff8dc solid 1px;
+    border-radius: 25px;
+    }
+
     .footer-block-one {
         width: 30%;
         padding-top: 4%;
         margin-left: 1.5%;
-        border: 1px solid #fff;
         height: 30%; 
+        font-size: 50%;
     }
 
     .footer-block-two {
-        border: 1px solid #fff8dc;
-        height: 30%;  
+        height: 25%;  
         margin-left: -5.5%;
-        border: 1px solid #fff8dc;
+        font-size: 50%;
         
         
         
     }
 
     .footer-block-three {
-        border: 1px solid #fff8dc;
         height: 30%; 
+        font-size: 50%;
 
     }
 
