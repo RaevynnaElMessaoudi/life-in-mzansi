@@ -151,7 +151,6 @@ footer {
 .footer-block-one {
     width: 34%;
     padding-top: 4%;
-    margin-left: 1.5%;
     
     
     
@@ -188,28 +187,7 @@ footer {
     text-align: center;
 }
 
-.footer-block-three {
-    width: 20%;
-    padding-top: 4%;
-    margin-left: -8.5%;
-    
-    
-    
-}
 
-.footer-block-three a {
-    padding: 0.2rem;
-    text-align: center;
-}
-.footer-block-three a:link {
-    color: #fff8dc;
-   
-}
-
-.footer-block-three a:visited {
-    color: #fff8dc;
-   
-}
 
 * {box-sizing:border-box}
 
@@ -893,17 +871,35 @@ width: 70%;
     text-decoration: none;
 }
 
+.history-videos {
+    width: 560px;
+    height: 374px;
+}
 
 
 
 
 
+@media only screen and (max-width: 992px) {
+.timeline {
+    width: 25vw;
+    height: 25vw;
+}
+
+.footer-block-two {
+    margin-left: -5.5%;
+}
+
+.honourable-mentions {
+    width: 250px;
+    height: 250px;
+}
+}
 
 
-
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
+    
+    
     nav li{
         display: block;
         width: 50vw;
@@ -911,11 +907,12 @@ width: 70%;
 
     .footer {
         height: 10vh;
+        width: 96vw;
         }
 
     #hero-image {visibility: collapse;}
     
-    #hero-image-container {height: 60vh;
+    #hero-image-container {height: 38vh;
         width: 100vw;
         background-image: url(../images/hero-small-p1.png);
         
@@ -939,7 +936,6 @@ width: 70%;
     .footer-block-one {
         width: 30%;
         padding-top: 4%;
-        margin-left: 1.5%;
         height: 30%; 
         font-size: 50%;
     }
@@ -953,11 +949,7 @@ width: 70%;
         
     }
 
-    .footer-block-three {
-        height: 30%; 
-        font-size: 50%;
-
-    }
+    
 
     .footer {
         margin-left: 3.5%;
@@ -965,10 +957,25 @@ width: 70%;
 
 
 
-    #geography-heading {
+#geography-heading {
         
-        font-size: 250%;
+        font-size: 350%;
 }
+
+#culture-container-one h1 {
+        
+    font-size: 350%;
+}
+#wildlife-container-one h1 {
+        
+    font-size: 350%;
+}
+#history-container-one h1 {
+        
+    font-size: 350%;
+}
+
+
 
 #sa-map {
     width: 200px;
@@ -1025,6 +1032,18 @@ width: 70%;
 #food-pictures > p {
     font-size: 150%;
 }
+
+.timeline {
+    width: 80vw;
+    height: 40vw;
+    margin-bottom: 3%;
+}
+
+.history-videos {
+    width: 96vw;
+    height: 64vw;
+}
+
 
 }
 
