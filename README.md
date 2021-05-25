@@ -47,9 +47,10 @@ The body of the website is black and each page is styled to represent one of the
   - Microsoft Edge
   - Mozilla Firefox
 
-### Validator Testing
+## Validator Testing
 - HTML was validated using [W3C Validator](https://validator.w3.org/)
 - CSS was validated using [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 
-
+## Credits 
+[test](assets/images/springbok.jpg)
