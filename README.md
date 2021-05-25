@@ -93,6 +93,7 @@ The body of the website is black and each page is styled to represent one of the
 <li><a href="https://www.gitpod.io/" target="_blank">GitPod</a> - used to develop project and organise version control.</li>
 <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a> - used to deploy the site.</li>
 <li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank">Lighthouse</a> - for performance review.</li>
+<li><a href="https://www.canva.com/" target="_blank">Canva</a> - for logo and hero image design</li>
 </ul>
 
 
