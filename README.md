@@ -8,13 +8,15 @@
 - <a href="#features1">Features</a>
   - <a href="#features2">Existing Features</a>
   - <a href="#features3">Features Left to Implement</a>
-- <a href="#tech">Tech Used</a>
+- <a href="#tech">Technologies Used</a>
 - <a href="#test1">Testing</a>
   - <a href="#test2">Lighthouse Testing</a>
   - <a href="#test3">Validator Testing</a>
+- <a href="#deployment">Deployment</a>
 - <a href="#credit1">Credits</a>
-  - <a href="#credit2">Media</a>
-  - <a href="#credit3">Acknowledgments</a>
+  - <a href="#credit2">Code</a>
+  - <a href="#credit3">Media</a>
+  - <a href="#credit4">Acknowledgments</a>
 
 <h2 id="overview1">Overview</h2>
 
@@ -55,10 +57,20 @@ The body of the website is black and each page is styled to represent one of the
 
 <br>
 <br>
-<h2 id="tech">Tech Used</h2>
+<h2 id="tech">Technologies Used</h2>
 
 - **HTML** and **CSS** 
   - Base languages used to create website
+
+<h3>Frameworks Libraries and Programmes Used</h3> 
+<ul>
+<li>Google Fonts - to import the font-family used in the website: Playfair Display and Courgette</li>
+<li>Font Awesome - used for icons.</li>
+<li>GitHub - used to host repository.</li>
+<li>GitPod - used to develop project and organise version control.</li>
+<li>GitHub Pages - used to deploy the site.</li>
+<li>Lighthouse - for performance review.</li>
+</ul>
 
 
 <h2 id="test1">Testing</h2>
@@ -67,10 +79,10 @@ The body of the website is black and each page is styled to represent one of the
 - Code was written using Gitpod and tested using Chrome Devtools Lighthouse: 
 
 Mobile lighthouse report
- ![Alt text](assets/images/mobile-lighthouse-report.JPG "Optional Title")
+ ![Alt text](assets/images/mobile-lighthouse-report.JPG)
 
  Desktop lighthouse report
-  ![Alt text](assets/images/desktop-lighthouse-report.JPG "Optional Title")
+  ![Alt text](assets/images/desktop-lighthouse-report.JPG)
 - All code used on the site has been tested to ensure everything is working as expected
 - Site viewed and tested in the following browsers:
   - Google Chrome
@@ -84,17 +96,41 @@ Mobile lighthouse report
 - HTML was validated using [W3C Validator](https://validator.w3.org/)
 
  HTML Validator report
-  ![Alt text](assets/images/html-validation.JPG "Optional Title")
+  ![Alt text](assets/images/html-validation.JPG)
 - CSS was validated using [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
  CSS Validator report
-  ![Alt text](assets/images/css-validation.JPG "Optional Title")
+  ![Alt text](assets/images/css-validation.JPG)
+
+<h2 id="deployment">Deployment</h2>
+
+The website was deployed to github pages through the following steps:
+<ol>
+<li>Navigate to github in the browser.</li>
+<li>Sign in with user credentials.</li>
+<li>Navigate to repositories.</li>
+<li>Select the repository to deploy.</li>
+<li>Select settings from the menu bar.</li>
+<li>Scroll to Github Pages section.</li>
+<li>Select Master branch from source drop down.</li>
+<li>Click Save</li>
+<li>Refresh page.</li>
+
+</ol>
 
 
+
+Github pages will now deploy the site automatically and update any changes pushed to the master branch.
 <h2 id="credit1">Credits</h2> 
-
-<h3 id="credit2">Media</h3>
-Credits for all images and text content can be found [here](assets/documents/media-credits.txt).
-
-<h3 id="credit3">Acknowledgments</h3>
-I would just like to thank my mentor, the slack community and my student advisor as well as all tutor and support staff at Code Institute for their guidance and assistance in the making of this project. 
+<h3 id="credit2">Code</h3>
+<ul>
+<li>Most of the code was utilized from lessons given by the Code Institute</li>
+<li>StackOverflow was used when problems were encountered</li>
+<li>W3Schools was used as reference material</li>
+</ul>
+<h3 id="credit3">Media</h3>
+Credits for all images and text content can be found 
+<a href="https://docs.google.com/document/d/1tdvjpFs-6x18K_DlkTxnTTpyp8QGxtCw6KemXN8DQ9o/edit?usp=sharing">here</a>.
+<br><br>
+<h3 id="credit4">Acknowledgments</h3>
+I would like to thank my mentor, my student advisor, the slack community and all tutor and support staff at Code Institute for their guidance and assistance in the making of this project. 
