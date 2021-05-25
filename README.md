@@ -1,6 +1,6 @@
 # Life in Mzansi
 
-<img src="assets/images/logo.png" alt="website logo" width="400px" height="200px">
+<img src="assets/images/logo.png" alt="website logo" width="50%" height="50%">
 
 ## Tabel of contents
 - <a href="#overview1">Overvew</a>
