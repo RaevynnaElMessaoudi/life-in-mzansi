@@ -25,47 +25,63 @@
 
 <h3 id="overview2"> What is this website for?</h3>
 
-Life in Mzansi is a website that aims to provide information about life in South Africa. This site will be targeted towards anyone with an interest in learning about South Africa, its geography, cultures, wildlife and history.
+Life in Mzansi is a website that aims to provide information about life in South Africa. This site will be targeted towards anyone with an interest in learning about South Africa, its geography, cultures, wildlife and history. This websites target audience is for anyone interested in learning more about South Africa. 
 
 ![Alt text](assets/images/responsive-screenshot.JPG )
 
 <h3 id="overview3"> What does it do?</h3>
 
-Life in Mzansi has several pages of information that briefly outline what life in South Africa is like. There also links to external websites that can help expand on certain topics. It does this by focusing on the four main pillars of life in South Africa, namely Culture, Wildlife, History and Geography. Users will have a decent knowledge of South Africa by the time they are done with the website. 
+Life in Mzansi has several pages of information that briefly outline what life in South Africa is like (there are also links to external websites that can help expand on certain topics.) This is achieved by focusing on the four main pillars of life in South Africa, namely Culture, Wildlife, History and Geography. Users will have a decent knowledge of South Africa by the time they are done with the website. 
 
 <h3 id="overview4">How does it work?</h3>
 
-Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can viewed [here](https://raeel97.github.io/life-in-mzansi/)
+Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can be viewed [here](https://raeel97.github.io/life-in-mzansi/)
 
 <h2 id="features1">Features</h2>
 
 <h3 id="features2">Existing Features</h3>
 
-- A stylish front page with a hero image and short introduction that explains the purpose of the website and the reason behind its naming. 
-- A logo that links to the home page. The logo incorporates the South African flag.
-- The website incorporate the colors of the South African flag to add to the user experience, this can be seen in the headings of each page, the buttons of the menu, the borders around each image and the external links in the footer. 
-The body of the website is black and each page is styled to represent one of the 5 other colors present in the South African flag. The home page is white, geography page is green, culture page is red, wildlife page is yellow and the history page is blue.   
-- A page dedicated to South African [geography](https://raeel97.github.io/life-in-mzansi/geography.html).
-- A page dedicated to South African [culture](https://raeel97.github.io/life-in-mzansi/culture.html).
-- A page dedicated to South African [wildlife](https://raeel97.github.io/life-in-mzansi/wildlife.html).
-- A page dedicated to South African [history](https://raeel97.github.io/life-in-mzansi/history.html).
-- A horizontally centered menu is used to navigate the website. Each menu buttons colors invert when selected.
-- A footer with links to the South African Tourism's facebook, twitter, instagram and youtube pages. The links have been styled to appear as the external websites logos and keeping with the theme, the south african flag colors were used. There is also a link to the developers github profile. 
-
-<h3 id="features3">Features Left to Implement</h3>
-- The wildlife page will be split into 2 further pages, mainly a flora and fauna page. 
-- A contact form will be later added so that users can submit feedback and get into contact with the developer.
-- An interactive map of South Africa will be added below the hero image that links to pages about each province. 
-- The hero image will be replaced with a carousel gallery. 
-
+<ol>
+<li>A stylish front page with a hero image and short introduction that explains the purpose of the website and the reason behind its naming.</li>
+<li>A logo that links to the home page. The logo incorporates the South African flag.</li>
+<li>The website incorporate the colors of the South African flag to add to the user experience, this can be seen in the following:
+<ul>
+<li>The headings of each page</li>
+<li>The buttons of the menu</li>
+<li>The borders around each image</li>
+<li>The external links in the footer.</li>
+</ul></li>
+<li>
+The body of the website is black and each page is styled to represent one of the 5 other colors present in the South African flag. 
+<ul>
+<li>The home page is white</li>
+<li>The geography page is green</li>
+<li>The culture page is red</li>
+<li>The wildlife page is yellow</li>
+<li>The history page is blue</li>
+</ul>
+</li>
+<li>A page dedicated to South African <a href="https://raeel97.github.io/life-in-mzansi/geography.html">geography</a>.</li>
+<li>A page dedicated to South African <a href="https://raeel97.github.io/life-in-mzansi/culture.html">culture</a>.</li>
+<li>A page dedicated to South African <a href="https://raeel97.github.io/life-in-mzansi/wildlife.html">wildlife</a>.</li>
+<li>A page dedicated to South African <a href="https://raeel97.github.io/life-in-mzansi/history.html">history</a>.</li>
+<li>A horizontally centered menu is used to navigate the website. Each menu buttons colors invert when selected.</li>
+<li>A footer with links to the South African Tourism's facebook, twitter, instagram and youtube pages. The links have been styled to appear as the external websites logos and keeping with the theme, the south african flag colors were used. There is also a link to the developers github profile.</li> 
+</ol>
 <br>
+<h3 id="features3">Features Left to Implement</h3>
+<ul>
+<li>The wildlife page will be split into 2 further pages, mainly a flora and fauna page. </li>
+<li>A contact form will be later added so that users can submit feedback and get into contact with the developer.</li>
+<li>An interactive map of South Africa will be added below the hero image that links to pages about each province.</li>
+<li>The hero image will be replaced with a carousel gallery. </li>
+</ul>
 <br>
 <h2 id="tech">Technologies Used</h2>
 <h3 id="tech1">Languages Used</h3>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-
 </ul>
 
 
