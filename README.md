@@ -1,5 +1,7 @@
 # Life in Mzansi
 
+![Alt text](assets/images/logo.png)
+
 ## Tabel of contents
 - <a href="#overview1">Overvew</a>
   - <a href="#overview2">What is this website for?</a>
@@ -9,6 +11,7 @@
   - <a href="#features2">Existing Features</a>
   - <a href="#features3">Features Left to Implement</a>
 - <a href="#tech">Technologies Used</a>
+  - <a href="#tech1">Frameworks Libraries and Programmes Used</a>
 - <a href="#test1">Testing</a>
   - <a href="#test2">Lighthouse Testing</a>
   - <a href="#test3">Validator Testing</a>
@@ -24,7 +27,7 @@
 
 Life in Mzansi is a website that aims to provide information about life in South Africa. This site will be targeted towards anyone with an interest in learning about South Africa, its geography, cultures, wildlife and history.
 
-![Alt text](assets/images/responsive-screenshot.JPG "Optional Title")
+![Alt text](assets/images/responsive-screenshot.JPG )
 
 <h3 id="overview3"> What does it do?</h3>
 
@@ -58,25 +61,29 @@ The body of the website is black and each page is styled to represent one of the
 <br>
 <br>
 <h2 id="tech">Technologies Used</h2>
-
-- **HTML** and **CSS** 
-  - Base languages used to create website
-
-<h3>Frameworks Libraries and Programmes Used</h3> 
+<h3 id="tech1">Languages Used</h3>
 <ul>
-<li>Google Fonts - to import the font-family used in the website: Playfair Display and Courgette</li>
-<li>Font Awesome - used for icons.</li>
-<li>GitHub - used to host repository.</li>
-<li>GitPod - used to develop project and organise version control.</li>
-<li>GitHub Pages - used to deploy the site.</li>
-<li>Lighthouse - for performance review.</li>
+<li>HTML</li>
+<li>CSS</li>
+
+</ul>
+
+
+<h3 id="tech2">Frameworks Libraries and Programmes Used</h3> 
+<ul>
+<li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> - used for icons.</li>
+<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - to import the font-family used in the website: Lato.</li>
+<li><a href="https://github.com/" target="_blank">GitHub</a> - used to host repository.</li>
+<li><a href="https://www.gitpod.io/" target="_blank">GitPod</a> - used to develop project and organise version control.</li>
+<li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a> - used to deploy the site.</li>
+<li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank">Lighthouse</a> - for performance review.</li>
 </ul>
 
 
 <h2 id="test1">Testing</h2>
 
 <h3 id="test2">Lighthouse Testing</h3>
-- Code was written using Gitpod and tested using Chrome Devtools Lighthouse: 
+- Code was written using Gitpod and tested using Chrome Devtools Lighthouse: <br><br>
 
 Mobile lighthouse report
  ![Alt text](assets/images/mobile-lighthouse-report.JPG)
