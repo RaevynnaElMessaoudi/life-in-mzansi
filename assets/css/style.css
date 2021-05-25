@@ -1,7 +1,6 @@
-
-
 .background-body {
-    background-color: #202020;}
+    background-color: #202020;
+}
 /*styling for the social media icons and nav bar colors */
 
 .green {
@@ -28,9 +27,6 @@
     color: #fff8dc;
 }
 
-
-
-
 /* Page styling */
 
 * {
@@ -41,64 +37,46 @@
     scroll-behavior: smooth;
 }
 
-
-
 /* logo & nav styling */
 
 #header-container {
-    background-color:#202020;
+    background-color: #202020;
     height: 25%;
     width: 98%;
-    margin: 10px; 
+    margin: 10px;
     border-bottom: #fff8dc 1px solid;
 }
-
-
-
-
 
 #logo img {
     width: 20%;
     padding: 5px;
-    margin-left: 1%; 
+    margin-left: 1%;
     margin-bottom: 2%;
-    
 }
-
-
 
 nav li {
     font-size: 180%;
     display: inline;
     padding: 10px;
-    background-color:#202020;
+    background-color: #202020;
     width: 100%;
     text-decoration: none;
     border: 1.5px solid #fff8dc;
     border-radius: 25px;
-    
-    
-    
-    
-
 }
 
 nav li::selection {
     color: #fff8dc;
 }
 
-
-
 nav ul li a {
     width: 20%;
     text-decoration: none;
-    
 }
 
-
 #active-home {
-        color: #202020;
-        background-color: ivory;
+    color: #202020;
+    background-color: ivory;
 }
 
 #active-geography {
@@ -114,22 +92,16 @@ nav ul li a {
 #active-culture {
     color: #202020;
     background-color: #d9372f;
-    
-    
 }
 
 #active-history {
     color: #202020;
     background-color: #2255fc;
-    
-    
 }
 
 #active-home a:visited {
     color: black;
 }
-
-
 
 /* footer styling */
 
@@ -150,9 +122,6 @@ footer {
 .footer-block-one {
     width: 34%;
     padding-top: 4%;
-    
-    
-    
 }
 
 .footer-block-one a {
@@ -161,35 +130,25 @@ footer {
 
 .footer-block-one a:link {
     color: #fff8dc;
-   
 }
 
 .footer-block-one a:visited {
     color: #fff8dc;
-   
 }
-
-
 
 .footer-block-two {
     width: 60%;
     padding-top: 4%;
     margin-left: -8.5%;
-    
-    
-    
-    
 }
 
 .footer-block-two a {
     text-align: center;
 }
 
-
-
-* {box-sizing:border-box}
-
-
+* {
+    box-sizing: border-box;
+}
 
 /* Hero Image Styling */
 #hero-image {
@@ -215,7 +174,8 @@ footer {
 #intro p {
     padding: 0.25% 0 0.75% 0;
 }
-#intro p,h1 {
+#intro p,
+h1 {
     color: #202020;
     text-decoration: none;
     padding-left: 2%;
@@ -230,12 +190,8 @@ footer {
 
 /* Geography Page Styling */
 
-
-
 #geography-container-one div {
     display: inline-block;
-    
-    
 }
 #geography-heading {
     color: #008037;
@@ -244,11 +200,7 @@ footer {
     text-decoration: underline;
     margin-top: 2.5%;
     font-size: 72px;
- 
-  
-    
 }
-
 
 #geography-paragraph-one {
     background-color: #202020;
@@ -256,13 +208,13 @@ footer {
     padding: 1% 1% 1% 1%;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
 #sa-map {
     width: 640px;
-    height: 350px; 
-    border:#008037 solid 5px; margin-top: 5%;
+    height: 350px;
+    border: #008037 solid 5px;
+    margin-top: 5%;
 }
 
 #geography-paragraph-one h2 {
@@ -277,8 +229,6 @@ footer {
     margin-top: 3%;
 }
 
-
-
 #geography-container-two {
     display: inline-block;
 }
@@ -292,9 +242,6 @@ footer {
     color: #fff8dc;
     font-size: 95%;
     border-top: solid 1px #fff8dc;
-    
-    
-    
 }
 
 #capital-container {
@@ -308,7 +255,6 @@ footer {
     height: 350px;
     display: inline-block;
     margin: 3% 2% 3% 0;
-    
 }
 
 .sa-capitals > p {
@@ -317,7 +263,6 @@ footer {
     background-color: #202020;
     width: 60%;
     margin-top: 2px;
-    
 }
 
 #pretoria {
@@ -333,7 +278,6 @@ footer {
     background-size: cover;
 }
 
-
 #geography-container-three h2 {
     margin: 0 0 5% 0;
     color: #008037;
@@ -341,9 +285,9 @@ footer {
 }
 
 #geography-container-three p {
-color: #fff8dc;
-font-size: 95%;
-width: 70%;
+    color: #fff8dc;
+    font-size: 95%;
+    width: 70%;
 }
 
 #province-container {
@@ -366,7 +310,6 @@ width: 70%;
 #gauteng {
     background-image: url(../images/gauteng.jpg);
     background-size: cover;
-
 }
 
 #western-cape {
@@ -404,17 +347,12 @@ width: 70%;
     background-size: cover;
 }
 
-
 #northern-cape {
     background-image: url(../images/northern-cape.jpg);
     background-size: cover;
 }
 
-
 /* Widlife Page Styling */
-
-
-
 
 #wildlife-heading {
     color: #e4b81c;
@@ -423,14 +361,10 @@ width: 70%;
     text-decoration: underline;
     margin-top: 2.5%;
     font-size: 72px;
- 
-  
-    
 }
 
 #wildlife-content-one-container {
     display: inline-block;
-    
 }
 #wildlife-paragraph-one {
     background-color: #202020;
@@ -438,15 +372,12 @@ width: 70%;
     padding: 1% 1% 1% 1%;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
 #wildlife-paragraph-one h2 {
     color: #e4b81c;
     font-size: 250%;
     margin-bottom: 3%;
-    
-    
 }
 
 .big-five {
@@ -487,21 +418,18 @@ width: 70%;
     background-size: cover;
 }
 
-
 #wildlife-paragraph-two {
     background-color: #202020;
     width: 70%;
     padding: 1% 1% 1% 1%;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
 #wildlife-paragraph-two h2 {
     margin-bottom: 2%;
     color: #e4b81c;
     font-size: 250%;
-    
 }
 
 #wildlife-paragraph-two h3 {
@@ -550,7 +478,6 @@ width: 70%;
     padding: 1% 1% 1% 1%;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
 #wildlife-paragraph-three h2 {
@@ -558,7 +485,6 @@ width: 70%;
     color: #e4b81c;
     font-size: 250%;
 }
-
 
 .honourable-mentions {
     border: #e4b81c solid 5px;
@@ -620,7 +546,6 @@ width: 70%;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
 #culture-one-one img {
@@ -636,64 +561,55 @@ width: 70%;
     margin-bottom: 3%;
 }
 
-#culture-container-two  h2 {
+#culture-container-two h2 {
     color: #d9372f;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
-#culture-container-two  p {
+#culture-container-two p {
     background-color: #202020;
     width: 80vw;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
 #culture-container-two iframe {
     margin-top: 2%;
     max-width: 80vw;
-    
-    
 }
 
-#culture-container-three  h2 {
+#culture-container-three h2 {
     color: #d9372f;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
-#culture-container-three  p {
+#culture-container-three p {
     background-color: #202020;
     width: 80vw;
     color: #fff8dc;
     font-size: 95%;
-    
 }
 
-#culture-container-three  img {
+#culture-container-three img {
     margin-top: 2%;
     max-width: 80vw;
-    
 }
 
-#culture-container-four  h2 {
+#culture-container-four h2 {
     color: #d9372f;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
 #culture-container-four {
     background-color: #202020;
     color: #fff8dc;
     font-size: 150%;
-    
 }
 
 #food-paragraph h2 {
@@ -703,7 +619,7 @@ width: 70%;
     margin-top: 4%;
 }
 
-#food-paragraph p{
+#food-paragraph p {
     width: 80vw;
     background-color: #202020;
     color: #fff8dc;
@@ -718,7 +634,6 @@ width: 70%;
     width: 80vw;
 }
 
-
 .sa-food {
     border: #d9372f solid 5px;
     color: #fff8dc;
@@ -730,15 +645,12 @@ width: 70%;
 
 .sa-food > p {
     background-color: #202020;
-    
-    
 }
 
 #biltong {
     background-image: url(../images/biltong2.jpg);
     background-size: cover;
 }
-
 
 #milktart {
     background-image: url(../images/milk-tart.jpg);
@@ -765,7 +677,6 @@ width: 70%;
     background-size: cover;
 }
 
-
 /* History page styling */
 
 .timeline {
@@ -779,15 +690,12 @@ width: 70%;
 
 .timeline > p {
     background-color: #202020;
-    
-    
 }
 
 #pre-colonisation {
     background-image: url(../images/pre-colonisation.jpg);
     background-size: cover;
 }
-
 
 #dutch {
     background-image: url(../images/dutch-colonisation.jpg);
@@ -828,7 +736,6 @@ width: 70%;
     font-size: 100%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
 #history-container-one h2 {
@@ -836,40 +743,32 @@ width: 70%;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
-#history-container-one  p {
+#history-container-one p {
     background-color: #202020;
     color: #fff8dc;
     font-size: 95%;
     margin-bottom: 2%;
-    
 }
-
-
 
 .history-containers h2 {
     color: #2255fc;
     font-size: 250%;
     margin-bottom: 2%;
     margin-top: 4%;
-    
 }
 
-
-
-.history-containers  p {
+.history-containers p {
     background-color: #202020;
     color: #fff8dc;
     width: 80vw;
     font-size: 95%;
     margin-bottom: 2%;
-    
 }
 
-.jump-button h3{
-    color:#fff8dc;
+.jump-button h3 {
+    color: #fff8dc;
     border: #2255fc;
     text-decoration: none;
 }
@@ -883,175 +782,144 @@ width: 70%;
     height: 374px;
 }
 
-
-
-
-
 @media only screen and (max-width: 992px) {
-.timeline {
-    width: 25vw;
-    height: 25vw;
-}
+    .timeline {
+        width: 25vw;
+        height: 25vw;
+    }
 
-.footer-block-two {
-    margin-left: -5.5%;
-}
+    .footer-block-two {
+        margin-left: -5.5%;
+    }
 
-.honourable-mentions {
-    width: 250px;
-    height: 250px;
+    .honourable-mentions {
+        width: 250px;
+        height: 250px;
+    }
 }
-}
-
 
 @media only screen and (max-width: 576px) {
-    
-    
-    nav li{
+    nav li {
         display: block;
         width: 50vw;
-      }
+    }
 
     .footer {
         height: 10vh;
         width: 96vw;
-        }
+    }
 
-    #hero-image {visibility: collapse;}
-    
-    #hero-image-container {height: 38vh;
+    #hero-image {
+        visibility: collapse;
+    }
+
+    #hero-image-container {
+        height: 38vh;
         width: 100vw;
         background-image: url(../images/hero-small-p1.png);
-        
-        
     }
 
     #logo img {
-    height: 150px;
-    width: 250px;
-    padding: 5px;
-    margin-left: 1%; 
-    margin-bottom: 2%;
+        height: 150px;
+        width: 250px;
+        padding: 5px;
+        margin-left: 1%;
+        margin-bottom: 2%;
     }
 
     #intro {
         width: 80vw;
         border: #fff8dc solid 1px;
-    border-radius: 25px;
+        border-radius: 25px;
     }
 
     .footer-block-one {
         width: 30%;
         padding-top: 4%;
-        height: 30%; 
+        height: 30%;
         font-size: 50%;
     }
 
     .footer-block-two {
-        height: 25%;  
+        height: 25%;
         margin-left: -5.5%;
         font-size: 50%;
-        
-        
-        
     }
-
-    
 
     .footer {
         margin-left: 3.5%;
     }
 
-
-
-#geography-heading {
-        
+    #geography-heading {
         font-size: 350%;
+    }
+
+    #culture-container-one h1 {
+        font-size: 350%;
+    }
+    #wildlife-container-one h1 {
+        font-size: 350%;
+    }
+    #history-container-one h1 {
+        font-size: 350%;
+    }
+
+    #sa-map {
+        width: 200px;
+        height: 200px;
+        border: #008037 solid 5px;
+        margin-top: 3%;
+    }
+
+    #sa-location {
+        font-size: 70%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+
+    .sa-capitals {
+        width: 250px;
+        height: 250px;
+    }
+    .sa-capitals > p {
+        font-size: 95%;
+        width: 70%;
+        color: #fff8dc;
+        background-color: #202020;
+
+        margin-top: 2px;
+    }
+
+    #geography-container-three h2 {
+        display: block;
+    }
+
+    #geography-container-three h2 {
+        margin-top: 8%;
+        font-size: 110%;
+    }
+
+    #geography-container-three p {
+        margin-bottom: 5%;
+    }
+
+    .sa-food {
+        width: 250px;
+        height: 250px;
+    }
+
+    #food-pictures > p {
+        font-size: 150%;
+    }
+
+    .timeline {
+        width: 80vw;
+        height: 40vw;
+        margin-bottom: 3%;
+    }
+
+    .history-videos {
+        width: 96vw;
+        height: 64vw;
+    }
 }
-
-#culture-container-one h1 {
-        
-    font-size: 350%;
-}
-#wildlife-container-one h1 {
-        
-    font-size: 350%;
-}
-#history-container-one h1 {
-        
-    font-size: 350%;
-}
-
-
-
-#sa-map {
-    width: 200px;
-    height: 200px; 
-    border:#008037 solid 5px; 
-    margin-top: 3%;
-}
-
-#sa-location {
-    font-size: 70%;
-    margin-bottom: 5%;
-    height: auto;
-}
-
-.sa-capitals {
-    
-    width: 250px;
-    height: 250px;
-    
-
-}
-.sa-capitals > p {
-    font-size: 95%;
-    width: 70%;
-    color: #fff8dc;
-    background-color: #202020;
-    
-    margin-top: 2px;
-    
-}
-
-
-
-#geography-container-three h2 {
-    display: block;
-}
-
-#geography-container-three h2 {
-    margin-top: 8%;
-    font-size: 110%;
-}
-
-#geography-container-three p {
-    margin-bottom: 5%;
-}
-
-.sa-food {
-    
-    width: 250px;
-    height: 250px;
-    
-}
-
-#food-pictures > p {
-    font-size: 150%;
-}
-
-.timeline {
-    width: 80vw;
-    height: 40vw;
-    margin-bottom: 3%;
-}
-
-.history-videos {
-    width: 96vw;
-    height: 64vw;
-}
-
-
-}
-
-  

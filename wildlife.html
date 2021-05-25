@@ -1,143 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A 5 page informational website on life in South Africa created using HTML and CSS" />
+        <meta name="keywords" content="information, south africa, mzansi, south african, geography, wildlife, history, culture" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Life In Mzansi</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A 5 page informational website on life in South Africa created using HTML and CSS">
-    <meta name="keywords"
-        content="information, south africa, mzansi, south african, geography, wildlife, history, culture">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Life In Mzansi</title>
-</head>
-
-<body class="background-body">
-    <header>
-        <div id="header-container">
-        <span id="logo">
-            <a href="index.html"><img src="./assets/images/logo.png"
-                    alt="website logo featuring a south african flag in the shape of a stamp bearing a black stamp within it with the words life in mzansi. Below these words are a zulu styled tribal shield with two spears pointwards from it"></a>
-        </span>
-        <div id="nav-container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html" class="white">Home</a>
-                    </li>
-                    <li>
-                        <a href="geography.html" class="green">Geography</a>
-                    </li>
-                    <li>
-                        <a href="culture.html" class="red">Culture</a>
-                    </li>
-                    <li id="active-wildlife">
-                        <a href="wildlife.html" class="black">Wildlife</a>
-                    </li>
-                    <li>
-                        <a href="history.html" class="blue">History</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-
-    <section id="wildlife-container-one">
-        <h1 id="wildlife-heading">Wildlife</h1>
-        <div id="wildlife-paragraph-one">
-            <h2>The Big 5</h2>
-            <p>Big Five refers to African lions, leopards, rhinoceros, elephants, and Cape buffalo.
-
-                The phrase today is usually used to market safaris, but was first coined by big-game hunters more than
-                100 years ago. In the nineteenth and early twentieth centuries, everyone from European royalty to
-                American presidents wanted to bag an African hunting trophy. The larger and more unpredictable the
-                beast, the better – which is how the Big Five became famous.
-
-                The Big Five may be dangerous, but they aren’t invincible. African lions, leopards, and elephants are
-                all classed as Vulnerable by the International Union for the Conservation of Nature. The black
-                rhinoceros is Critically Endangered and the Southern white rhino is Near Threatened, while the Northern
-                white rhino is on the verge of extinction. The Cape buffalo is of the least concern in terms of
-                conservation, but this also makes it the most popular animal to hunt. Hunting, poaching, and habitat
-                loss combined mean the Cape buffalo’s population is also on the decline.
-                There is still an active trade in legal hunting in Africa. South Africa is the biggest game hunting
-                destination in the world. This practice however has undergone significant changes in implementation and
-                public perception over the last century.
-                <br><br>Remember Cecil the lion? This big cat’s death and subsequent photo of a dentist gloating over
-                his body triggered outrage around the world and deeper examination of big game hunting in Africa.
-                Arguments surrounding modern game hunting are heavily polarized.
-
-                Defenders of game hunting say it can aid conservation efforts by generating revenue necessary to protect
-                animals and their habitat – in many areas, land would be used for agriculture if it wasn’t for
-                commercial hunting. Hunters also argue that they are helping to control animal populations and support
-                local communities by providing jobs and income. This in turn could motivate people to protect animals
-                from poaching.
-
-                Critics argue that minimal profits reach local communities, and that whether or not hunting supports
-                conservation relies on the appropriate management of funds raised and sustainable allocation of animal
-                quotas. Inadequate monitoring makes these factors difficult to control.
-
-                <br><br>Either way, trophy hunting is big business in South Africa. According to Africa Check, around
-                8,500 trophy hunters visit South Africa each year, compared to 9.5 million tourists. These hunters spend
-                more than the average tourist, averaging around $10,000 per hunting trip. Trophy hunting generates an
-                estimated $100 million a year, says South Africa’s DEA.
-
-            </p>
-        </div>
-        <div>
-            <a href="https://www.nationalgeographic.com/animals/mammals/facts/african-lion" target="_blank" aria-label="Jump to lion fact page, opens in new tab"> 
-                <div class="big-five" id="lion">
-                    <p>Lion</p>
+    <body class="background-body">
+        <header>
+            <div id="header-container">
+                <span id="logo">
+                    <a href="index.html">
+                        <img
+                            src="./assets/images/logo.png"
+                            alt="website logo featuring a south african flag in the shape of a stamp bearing a black stamp within it with the words life in mzansi. Below these words are a zulu styled tribal shield with two spears pointwards from it"
+                        />
+                    </a>
+                </span>
+                <div id="nav-container">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="white">Home</a>
+                            </li>
+                            <li>
+                                <a href="geography.html" class="green">Geography</a>
+                            </li>
+                            <li>
+                                <a href="culture.html" class="red">Culture</a>
+                            </li>
+                            <li id="active-wildlife">
+                                <a href="wildlife.html" class="black">Wildlife</a>
+                            </li>
+                            <li>
+                                <a href="history.html" class="blue">History</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-            </a>
-            <a href="https://www.nationalgeographic.com/animals/mammals/facts/leopard" target="_blank" aria-label="Jump to leopard fact page, opens in new tab">
-                <div class="big-five" id="leopard">
-                    <p>Leopard</p>
-                </div>
-            </a>
-            <a href="https://kids.nationalgeographic.com/animals/mammals/facts/black-rhino" target="_blank" aria-label="Jump to rhino fact page, opens in new tab">
-                <div class="big-five" id="rhino">
-                    <p>Rhinoceros</p>
-                </div>
-            </a>
-            <a href="https://kids.nationalgeographic.com/animals/mammals/facts/african-elephant" target="_blank" aria-label="Jump to elephant fact page, opens in new tab">
-                <div class="big-five" id="elephant">
-                    <p>Elephant</p>
-                </div>
-            </a>
-            <a href="https://www.nationalgeographic.com/animals/mammals/facts/african-buffalo" target="_blank" aria-label="Jump to buffalo fact page, opens in new tab">
-                <div class="big-five" id="buffalo">
-                    <p>Buffalo</p>
-                </div>
-            </a>
-        </div>
-    </section>
+            </div>
+        </header>
+
+        <section id="wildlife-container-one">
+            <h1 id="wildlife-heading">Wildlife</h1>
+            <div id="wildlife-paragraph-one">
+                <h2>The Big 5</h2>
+                <p>
+                    Big Five refers to African lions, leopards, rhinoceros, elephants, and Cape buffalo. The phrase today is usually used to market safaris, but was first coined by big-game hunters more than 100 years ago. In the nineteenth
+                    and early twentieth centuries, everyone from European royalty to American presidents wanted to bag an African hunting trophy. The larger and more unpredictable the beast, the better – which is how the Big Five became
+                    famous. The Big Five may be dangerous, but they aren’t invincible. African lions, leopards, and elephants are all classed as Vulnerable by the International Union for the Conservation of Nature. The black rhinoceros is
+                    Critically Endangered and the Southern white rhino is Near Threatened, while the Northern white rhino is on the verge of extinction. The Cape buffalo is of the least concern in terms of conservation, but this also makes
+                    it the most popular animal to hunt. Hunting, poaching, and habitat loss combined mean the Cape buffalo’s population is also on the decline. There is still an active trade in legal hunting in Africa. South Africa is the
+                    biggest game hunting destination in the world. This practice however has undergone significant changes in implementation and public perception over the last century. <br />
+                    <br />
+                    Remember Cecil the lion? This big cat’s death and subsequent photo of a dentist gloating over his body triggered outrage around the world and deeper examination of big game hunting in Africa. Arguments surrounding modern
+                    game hunting are heavily polarized. Defenders of game hunting say it can aid conservation efforts by generating revenue necessary to protect animals and their habitat – in many areas, land would be used for agriculture
+                    if it wasn’t for commercial hunting. Hunters also argue that they are helping to control animal populations and support local communities by providing jobs and income. This in turn could motivate people to protect
+                    animals from poaching. Critics argue that minimal profits reach local communities, and that whether or not hunting supports conservation relies on the appropriate management of funds raised and sustainable allocation of
+                    animal quotas. Inadequate monitoring makes these factors difficult to control.
+
+                    <br />
+                    <br />
+                    Either way, trophy hunting is big business in South Africa. According to Africa Check, around 8,500 trophy hunters visit South Africa each year, compared to 9.5 million tourists. These hunters spend more than the average
+                    tourist, averaging around $10,000 per hunting trip. Trophy hunting generates an estimated $100 million a year, says South Africa’s DEA.
+                </p>
+            </div>
+            <div>
+                <a href="https://www.nationalgeographic.com/animals/mammals/facts/african-lion" target="_blank" aria-label="Jump to lion fact page, opens in new tab">
+                    <div class="big-five" id="lion">
+                        <p>Lion</p>
+                    </div>
+                </a>
+                <a href="https://www.nationalgeographic.com/animals/mammals/facts/leopard" target="_blank" aria-label="Jump to leopard fact page, opens in new tab">
+                    <div class="big-five" id="leopard">
+                        <p>Leopard</p>
+                    </div>
+                </a>
+                <a href="https://kids.nationalgeographic.com/animals/mammals/facts/black-rhino" target="_blank" aria-label="Jump to rhino fact page, opens in new tab">
+                    <div class="big-five" id="rhino">
+                        <p>Rhinoceros</p>
+                    </div>
+                </a>
+                <a href="https://kids.nationalgeographic.com/animals/mammals/facts/african-elephant" target="_blank" aria-label="Jump to elephant fact page, opens in new tab">
+                    <div class="big-five" id="elephant">
+                        <p>Elephant</p>
+                    </div>
+                </a>
+                <a href="https://www.nationalgeographic.com/animals/mammals/facts/african-buffalo" target="_blank" aria-label="Jump to buffalo fact page, opens in new tab">
+                    <div class="big-five" id="buffalo">
+                        <p>Buffalo</p>
+                    </div>
+                </a>
+            </div>
+        </section>
 
         <section id="wildlife-container-two">
             <div id="wildlife-paragraph-two">
                 <h2>National Animals</h2>
-                <p>The South African national symbols include three animals, the Springbok, the Blue Crane and the
-                    Galjoen.</p>
+                <p>The South African national symbols include three animals, the Springbok, the Blue Crane and the Galjoen.</p>
 
-                    <h3>The National Animal: Springbok</h3>
+                <h3>The National Animal: Springbok</h3>
 
-                    <p>The springbok is South Africa’s most well known antelope. This elegant mammal is a vegetarian which
-                    grow up to 75 cm in height.</p>
+                <p>The springbok is South Africa’s most well known antelope. This elegant mammal is a vegetarian which grow up to 75 cm in height.</p>
 
-                    <h3>The National Fish: Galjoen</h3>
+                <h3>The National Fish: Galjoen</h3>
 
-                    <p>The galjoen is another South Africa national symbol and native to the coastal waters of South
-                    Africa.<br>
+                <p>
+                    The galjoen is another South Africa national symbol and native to the coastal waters of South Africa.<br />
 
-                    It lives mainly in shallow waters. Especially popular in Kwa-Zulu Natal it is also called black
-                    bream or blackfish. The galjoen can weight up to seven kilograms.</p>
+                    It lives mainly in shallow waters. Especially popular in Kwa-Zulu Natal it is also called black bream or blackfish. The galjoen can weight up to seven kilograms.
+                </p>
 
-                    <h3>The National Bird: Blue Crane</h3>
+                <h3>The National Bird: Blue Crane</h3>
 
-                    <p>This light blue grey bird is only to be found in South Africa.<br>
+                <p>
+                    This light blue grey bird is only to be found in South Africa.<br />
 
-                    It has got a long neck and long legs. Blue cranes are a common sight in the Karoo and can be seen
-                    also in Kwa-Zulu Natal and the Highveld.</p>
+                    It has got a long neck and long legs. Blue cranes are a common sight in the Karoo and can be seen also in Kwa-Zulu Natal and the Highveld.
+                </p>
             </div>
             <div>
                 <a href="https://www.krugerpark.co.za/africa_springbok.html" target="_blank">
@@ -155,13 +139,9 @@
                         <p>Blue Crane</p>
                     </div>
                 </a>
-                
             </div>
-
-
         </section>
         <section id="wildlife-container-three">
-
             <div id="wildlife-paragraph-three">
                 <h2>Honourable Mentions</h2>
                 <p>
@@ -199,30 +179,27 @@
                         <p>Hippopotamus</p>
                     </div>
                 </a>
-                </div>
+            </div>
         </section>
         <footer>
             <div class="footer">
                 <div class="footer-block-one">
-                    <p>©Rae El 2021
-                        <a href="https://github.com/RaevynnaElMessaoudi" target="_blank" aria-label="Go to Github page" rel="noopener"><i
-                                class="fab fa-github-square"></i></a>
+                    <p>
+                        ©Rae El 2021
+                        <a href="https://github.com/RaevynnaElMessaoudi" target="_blank" aria-label="Go to Github page" rel="noopener"><i class="fab fa-github-square"></i></a>
                     </p>
                 </div>
                 <div class="footer-block-two">
-                    <p>Explore South Africa:
-                        <a href="https://www.facebook.com/SouthAfricanTourism" target=" _blank" aria-label="Go to Facebook page" rel="noopener"><i
-                                class="fab fa-facebook-square green"></i></a>
-                        <a href="https://www.youtube.com/channel/UCiFclzCVag39Toib-0UAvlw" target="_blank" aria-label="Go to Youtube page" rel="noopener"><i
-                                class="fab fa-youtube-square blue"></i></a>
-                        <a href="https://www.instagram.com/southafricatourism/?hl=en" target="_blank" aria-label="Go to Instagram page" rel="noopener"><i
-                                class="fab fa-instagram-square yellow"></i></a>
-                        <a href="https://twitter.com/southafricaanz?lang=en" target="_blank" aria-label="Go to Twitter page" rel="noopener"><i
-                                class="fab fa-twitter-square red"></i></a>
-                        </div>
+                    <p>
+                        Explore South Africa:
+                        <a href="https://www.facebook.com/SouthAfricanTourism" target=" _blank" aria-label="Go to Facebook page" rel="noopener"><i class="fab fa-facebook-square green"></i></a>
+                        <a href="https://www.youtube.com/channel/UCiFclzCVag39Toib-0UAvlw" target="_blank" aria-label="Go to Youtube page" rel="noopener"><i class="fab fa-youtube-square blue"></i></a>
+                        <a href="https://www.instagram.com/southafricatourism/?hl=en" target="_blank" aria-label="Go to Instagram page" rel="noopener"><i class="fab fa-instagram-square yellow"></i></a>
+                        <a href="https://twitter.com/southafricaanz?lang=en" target="_blank" aria-label="Go to Twitter page" rel="noopener"><i class="fab fa-twitter-square red"></i></a>
+                    </p>
                 </div>
+            </div>
         </footer>
         <script src="https://kit.fontawesome.com/0200a02320.js" crossorigin="anonymous"></script>
-</body>
-
+    </body>
 </html>
