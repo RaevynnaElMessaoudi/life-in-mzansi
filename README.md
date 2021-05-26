@@ -27,7 +27,7 @@
 
 Life in Mzansi is a website that aims to provide information about life in South Africa. This site will be targeted towards anyone with an interest in learning about South Africa, its geography, cultures, wildlife and history. This websites target audience is for anyone interested in learning more about South Africa. 
 
-![Alt text](assets/images/responsive-screenshot.JPG )
+![Wesbite screenshots](assets/images/responsive-screenshot.JPG )
 
 <h3 id="overview3"> What does it do?</h3>
 
@@ -35,7 +35,13 @@ Life in Mzansi has several pages of information that briefly outline what life i
 
 <h3 id="overview4">How does it work?</h3>
 
-Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can be viewed [here](https://raeel97.github.io/life-in-mzansi/)
+Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can be viewed [here](https://raeel97.github.io/life-in-mzansi/). The wireframes can be viewed below:
+
+![Home Page Wireframe](assets/images/wireframe-index.JPG )
+![Geography Page Wireframe](assets/images/wireframe-geo.JPG )
+![Culture Page Wireframe](assets/images/wireframe-culture.JPG )
+![Wildlife Page Wireframet](assets/images/wireframe-wildlife.JPG )
+![History Page Wireframe](assets/images/wireframe-history.JPG )
 
 <h2 id="features1">Features</h2>
 
@@ -94,6 +100,7 @@ The body of the website is black and each page is styled to represent one of the
 <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a> - used to deploy the site.</li>
 <li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank">Lighthouse</a> - for performance review.</li>
 <li><a href="https://www.canva.com/" target="_blank">Canva</a> - for logo and hero image design</li>
+<li><a href="https://balsamiq.com//" target="_blank">Balsamiq</a> - used to create wireframes</li>
 </ul>
 
 
