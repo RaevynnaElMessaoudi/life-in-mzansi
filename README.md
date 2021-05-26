@@ -35,13 +35,10 @@ Life in Mzansi has several pages of information that briefly outline what life i
 
 <h3 id="overview4">How does it work?</h3>
 
-Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can be viewed [here](https://raeel97.github.io/life-in-mzansi/). The wireframes can be viewed below:
+Life in Mzansi was created with HTML5 and styled with CSS3. There are 5 pages in total that are navigated using the menu located at the top of the website beneath the website logo. This project was developed on Gitpod and deployed on Github. The site can be viewed [here](https://raeel97.github.io/life-in-mzansi/). <br>
+The wireframes can be viewed [here](https://drive.google.com/drive/folders/10ZFwIOE_hdAEvLItfB3IiwfM7PaafriX?usp=sharing).
 
-![Home Page Wireframe](assets/images/wireframe-index.JPG )
-![Geography Page Wireframe](assets/images/wireframe-geo.JPG )
-![Culture Page Wireframe](assets/images/wireframe-culture.JPG )
-![Wildlife Page Wireframet](assets/images/wireframe-wildlife.JPG )
-![History Page Wireframe](assets/images/wireframe-history.JPG )
+
 
 <h2 id="features1">Features</h2>
 
@@ -161,7 +158,7 @@ Github pages will now deploy the site automatically and update any changes pushe
 </ul>
 <h3 id="credit3">Media</h3>
 Credits for all images and text content can be found 
-<a href="https://docs.google.com/document/d/1tdvjpFs-6x18K_DlkTxnTTpyp8QGxtCw6KemXN8DQ9o/edit?usp=sharing">here</a>.
+<a href="https://drive.google.com/file/d/1bq5xbM3hVl5W9sZCwPgNd9v6XdRT6WoO/view?usp=sharing">here</a>.
 <br><br>
 <h3 id="credit4">Acknowledgments</h3>
 I would like to thank my mentor, my student advisor, the slack community and all tutor and support staff at Code Institute for their guidance and assistance in the making of this project. 
